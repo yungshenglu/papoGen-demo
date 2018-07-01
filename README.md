@@ -1,6 +1,6 @@
 ![](https://github.com/toolbuddy/papoGen/blob/master/design/badge.png)
 
-# [*papoGen*] DEMO
+# *papoGen* DEMO
 
 本專案將透過 *papoGen* 來快速生成一個網頁，使用者可以透過 CLI 指令來做產生；以下會展示如何使用、以及指令參數的意義。
 * `src/` - 存放生成來源，並透過目前支援的「主題」(i.e., *Paper.css* 與 *papoGen.css*) 的資料夾分類。
