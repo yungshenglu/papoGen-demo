@@ -46,13 +46,7 @@
         * `out/` - 存放生成的結果
         * `src/` - 存放生成的來源
             * `paper/` - 存放使用 *Paper.css* 作為主題的來源
-                * `json/`
-                * `md/`
-                * `yaml/`
             * `papogen/` - 存放使用 *papoGen.css* 作為主題的來源
-                * `json/`
-                * `yaml/`
-        * `papogen.sh` - 
         * `README.md` - 本說明文件
 4. 完成前置作業，可以開始體驗 *papoGen*！
 
