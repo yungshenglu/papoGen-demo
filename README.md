@@ -24,7 +24,7 @@
         * 開啟 [Node.js](https://nodejs.org/en/) 官方網站。
         * 下載 Node.js 版本：[macOS (x64) 8.11.3 LTS Installer](https://nodejs.org/dist/v8.11.3/node-v8.11.3.pkg)。
     * Windows 安裝 Node.js
-        * 開啟
+        * 開啟 [Node.js](https://nodejs.org/en/) 官方網站。
         * 下載 Node.js 版本：
             * [Windows (x86) 8.11.3 LTS Installer](https://nodejs.org/dist/v8.11.3/node-v8.11.3-x86.msi)
             * [Windows (x64) 8.11.3 LTS Installer](https://nodejs.org/dist/v8.11.3/node-v8.11.3-x64.msi)
