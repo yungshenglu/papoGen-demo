@@ -101,11 +101,11 @@
         * 瀏覽完畢後請將 `./out/papogen` 整個資料夾刪除 (驗證確實有生成用)。
     3. 開啟檔案 `./src/papogen/yaml/profile.yaml`。
         * 姓名：將行數 25 的 `/* NAME */` 改為您的姓名。
-        * 目前職位：將行數 28 的 `/* SUBJECT */` 改為您的職位。
+        * 目前職位：將行數 28 的 `/* SUBJECT */` 改為您目前職位。
         * EMAIL：將行數 55 的 `/* EMAIL */` 改為您的電子信箱。
         * 社群連結：
             * 將行數 79 的 `/* GITHUB */` 改為您的 GitHub 帳號連結。
-            * 亦可自行新增連結喔！(選做)
+            * 亦可自行新增連結 (選做)
                 * 參考行數 78 - 82 自行新增。
                 * 符號都是請參照 [Font Awesome](https://fontawesome.com/)，使用時只需要輸入官方給定的「符號名稱」，符號名稱中間的 `-` 請以「空白」取代。若符號有 `-alt`，請以 `alternate` 取代，
     4. 開啟檔案 `./src/papogem/yaml/resume.yaml`
@@ -129,6 +129,7 @@
                 ```
             * 將行數 67 - 70 的 `/* YOUR_SCHOOL */` 改為您的學歷。
         * 圖片呈現：此模板支援同時多個圖片呈現。
+            * 行數 79 的 `circular: true` 為設定該圖片組的圓形圖片。
             * 行數 80 的 `size: tiny` 為控制該圖片組的圖片大小，可以改為以下試試看：
                 ```yaml
                 size: mini / tiny / small / big / large / huge / massive
