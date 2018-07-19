@@ -1,0 +1,123 @@
+article: Resume,
+article_content:
+    - {
+        title: ABOUT,
+        content: [{
+            type: text,
+            data: [
+                /* ABOUT_YOU */
+            ]
+        }]
+    }
+    - {
+        title: WORK EXPERIENCE,
+        content: [{
+            type: table,
+            attr: {},
+            data: [{
+                    name: Company,
+                    items: [
+                        /* COMPANY_1 */, /* COMPANY_2 */
+                    ]
+                },
+                {
+                    name: Position,
+                    items: [
+                        /* POSITION_1 */, /* POSITION_2 */
+                    ]
+                }
+            ]
+        }]
+    }
+    - {
+        title: SKILLS & INTERESTS,
+        content: [{
+            type: statistic,
+            attr: {
+                color: blue
+            },
+            data: [{
+                value: {
+                    content: 80%
+                },
+                label: /* SKILL */
+            }, {
+                value: {
+                    content: 1400,
+                    icon: github square
+                },
+                label: Contributions
+            }, {
+                value: {
+                    content: 1,
+                    icon: digital ocean
+                },
+                label: Meetup
+            }]
+        }]
+    }
+    - {
+        title: EDUCATION,
+        content: [{
+            type: timeline,
+            attr: {
+                color: navy
+            },
+            data: [
+                /* YOUR_SCHOOL */,
+                /* YOUR_SCHOOL */,
+                /* YOUR_SCHOOL */,
+                /* YOUR_SCHOOL */
+            ]
+        }]
+    }
+    - {
+        title: SPECIAL THANKS,
+        content: [{
+            type: image,
+            attr: {
+                circular: true,
+                size: tiny
+            },
+            data: [{
+                    url: ../../DO.png
+                },
+                {
+                    url: ../../MW.png
+                },
+                {
+                    url: ../../tb.png
+                },
+                {
+                    url: ../../avatar.png
+                }
+            ]
+        }]
+    }
+    - {
+        title: REFERENCES,
+        content: [{
+            type: header,
+            attr: {
+                size: h5
+            },
+            data: How to generate webpage by papoGen?
+        }, {
+            type: code,
+            data: [{
+                raw: » papogen -s src/papogen/ -o out/yaml -g yaml -m papogen,
+                lang: bash
+            }]
+        }, {
+            type: header,
+            attr: {
+                size: h5
+            },
+            data: We also support formula by MathJax! (Should add " ")
+        }, {
+            type: formula,
+            data: [
+                "`x = (-b +- sqrt(b^2-4ac))/(2a) .`"
+            ]
+        }]
+    }

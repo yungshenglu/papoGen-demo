@@ -1,0 +1,44 @@
+{
+    "article": "Profile",
+    "article_content": [{
+        "title": "PROFILE",
+        "content": []
+    }, {
+        "title": "NAME",
+        "content": [{
+            "type": "header",
+            "data": "Your name",
+            "attr": {
+                "size": "h1",
+                "sub": "Your tilte",
+                "aligned": "center"
+            }
+        }]
+    }, {
+        "title": "DIVIDER",
+        "content": [{
+            "type": "divider",
+            "data": "Links",
+            "attr": {
+                "icon": "info circle"
+            }
+        }]
+    }, {
+        "title": "LINKS",
+        "content": [{
+            "type": "list",
+            "attr": {},
+            "data": [{
+                    "link": "mailto:tb@imslab.org",
+                    "icon": "mail",
+                    "name": "Mail"
+                },
+                {
+                    "link": "https://toolbuddy.github.io/",
+                    "icon": "github",
+                    "name": "GitHub"
+                }
+            ]
+        }]
+    }]
+}

@@ -1,0 +1,30 @@
+[
+    {
+    "type": "image",
+    "data": [
+        {
+            "url": "../../MW.png"
+        }
+    ],
+    "attr": {
+        "circular": true,
+        "centered": true,
+        "size": "tiny"
+    }
+},
+{
+    "title": "AWARDS",
+    "content": [{
+        "type": "timeline",
+        "attr": {
+            "color": "green"
+        },
+        "data": [
+            "Award 1",
+            "Award 2",
+            "Award 3",
+            "Award 4"
+        ]
+    }]
+}
+]

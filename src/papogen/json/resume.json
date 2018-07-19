@@ -1,0 +1,108 @@
+{
+    "article": "Resume",
+    "article_content": [{
+        "title": "ABOUT",
+        "content": [{
+            "type": "text",
+            "data": [
+                "What we cannot create, we do not understand. Crafting tools by our knowledge and own hands, aim to make the world a better place."
+            ]
+        }]
+    }, {
+        "title": "SKILLS",
+        "content": [{
+            "type": "table",
+            "attr": {},
+            "data": [{
+                    "name": "Programming Language",
+                    "items": [
+                        "", "C", "C++", "Node.js"
+                    ]
+                },
+                {
+                    "name": "Proficiency",
+                    "items": [
+                        "", "80%", "80%", "70%"
+                    ]
+                }
+            ]
+        }]
+    }, {
+        "title": "EDUCATION",
+        "content": [{
+            "type": "list",
+            "attr": {
+                "bulleted": true
+            },
+            "data": [{
+                    "name": "國立交通大學網路工程研究所",
+                    "detail": "Inst. of Network Engineering, NCTU"
+                },
+                {
+                    "name": "國立成功大學資訊工程學系",
+                    "detail": "Dept. of Computer Science and Engineering, NCKU",
+                    "items": [{
+                            "name": "資訊工程研究所",
+                            "detail": "Inst. of Computer Science and Information Engineering"
+                        },
+                        {
+                            "name": "生醫資訊研究所",
+                            "detail": "Inst. of Medical Informatics"
+                        }, {
+                            "name": "製造資訊研究所",
+                            "detail": "Inst. of Manufacturing Information and Systems"
+                        }
+                    ]
+                }
+            ]
+        }]
+    },
+    {
+        "title": "INTERESTS",
+        "content": [{
+            "type": "section",
+            "attr": {
+                "raised": true
+            },
+            "data": [
+                "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+                "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+            ]
+        }]
+    }, {
+        "title": "VOLUNTEER WORK",
+        "content": [{
+            "type": "image",
+            "data": [{
+                    "url": "../../tb.png"
+                }
+            ],
+            "attr": {
+                "size": "small"
+            }
+        }]
+    }, {
+        "title": "REFERENCES",
+        "content": [{
+            "type": "alert",
+            "attr": {
+                "status": "info"
+            },
+            "data": [{
+                "header": "ToolBuddy",
+                "content": "What we cannot create, we do not understand. Crafting tools by our knowledge and own hands, aim to make the world a better place."
+            }]
+        }, {
+            "type": "code",
+            "data": [{
+                "raw": "papogen -s src/papogen/json/ -o out/papogen/ -g json -m papogen -t papoGen",
+                "lang": "bash"
+            }]
+        }, {
+            "type": "formula",
+            "data": [
+                "`x = (-b +- sqrt(b^2-4ac))/(2a) .`"
+            ]
+        }]
+    }]
+}

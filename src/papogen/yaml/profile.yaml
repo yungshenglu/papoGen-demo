@@ -1,0 +1,85 @@
+article: Profile,
+article_content:
+    - {
+        title: PROFILE,
+        content: [
+            {
+                type: image,
+                data: [
+                    {
+                        url: ../../avatar.png
+                    }
+                ],
+                attr: {
+                    circular: true,
+                    centered: true,
+                    size: tiny
+                }
+            }
+        ]
+    }
+    - {
+        title: NAME,
+        content: [{
+            type: header,
+            data: /* NAME */,
+            attr: {
+                size: h1,
+                sub: /* SUBJECT */,
+                aligned: center
+            }
+        }]
+    }
+    - {
+        title: DIVIDER,
+        content: [{
+            type: divider,
+            data: Contact,
+            attr: {
+                icon: question circle
+            }
+        }]
+    }
+    - {
+        title: CONTACT,
+        content: [{
+            type: list,
+            attr: {},
+            data: [
+                {
+                    link: Hsinchu Taiwan,
+                    icon: map marker alternate,
+                    name: Location
+                },
+                {
+                    link: mailto:/* EMAIL */,
+                    icon: mail,
+                    name: Mail
+                }
+            ]
+        }]
+    }
+    - {
+        title: DIVIDER,
+        content: [{
+            type: divider,
+            data: Links,
+            attr: {
+                icon: info circle
+            }
+        }]
+    }
+    - {
+        title: LINKS,
+        content: [{
+            type: list,
+            attr: {},
+            data: [
+                {
+                    link: /* GITHUB */,
+                    icon: github,
+                    name: GitHub
+                }
+            ]
+        }]
+    }

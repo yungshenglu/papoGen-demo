@@ -1,0 +1,14 @@
+article: Text example
+article_content:
+  - {
+    title: David Lu,
+    content: [
+      {
+        type: text,
+        data: [
+          Graduated Student @CS.NCTU,
+          Major in SDN/NFV
+        ]
+      }
+    ]
+  }
