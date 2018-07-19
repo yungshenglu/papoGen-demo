@@ -2,7 +2,17 @@
     "article": "Profile",
     "article_content": [{
         "title": "PROFILE",
-        "content": []
+        "content": [{
+            "type": "image",
+            "data": [{
+                "url": "../../tb.png"
+            }],
+            "attr": {
+                "centered": true,
+                "circular": true,
+                "size": "tiny"
+            }
+        }]
     }, {
         "title": "NAME",
         "content": [{

@@ -8,6 +8,30 @@
                 "What we cannot create, we do not understand. Crafting tools by our knowledge and own hands, aim to make the world a better place."
             ]
         }]
+    },{
+        "title": "RECORD",
+        "content": [{
+            "type": "statistic",
+            "attr": {},
+            "data": [{
+                "value": {
+                    "content": "70%"
+                },
+                "label": "papogen"
+            }, {
+                "value": {
+                    "content": "5",
+                    "icon": "plane"
+                },
+                "label": "FLIGHTS"
+            }, {
+                "value": {
+                    "content": "5",
+                    "img": "./res/avatar.png"
+                },
+                "label": "TEAM MEMBERS"
+            }]
+        }]
     }, {
         "title": "SKILLS",
         "content": [{
@@ -56,6 +80,22 @@
                 }
             ]
         }]
+    }, {
+        "title": "AWARDS",
+        "content": [
+            {
+                "type": "timeline",
+                "attr": {
+                    "color": "red"
+                },
+                "data": [
+                    "Awards 1",
+                    "Awards 2",
+                    "Awards 3",
+                    "Awards 4"
+                ]
+            }
+        ]
     },
     {
         "title": "INTERESTS",
@@ -75,6 +115,9 @@
             "type": "image",
             "data": [{
                     "url": "../../tb.png"
+                },
+                {
+                    "url": "../../modernweb.svg"
                 }
             ],
             "attr": {
